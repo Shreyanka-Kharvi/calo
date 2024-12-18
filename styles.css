@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #3498db, #2ecc71) !important;
+}
+
+/* Calorie Calculator Card */
+.calorie-calculator-card {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.calorie-calculator-card:hover {
+    transform: translateY(-10px);
+}
+
+/* About Page Styles */
+.about-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.team-members img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.team-members img:hover {
+    transform: scale(1.1);
+}
+
+/* Careers Page Styles */
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 2px solid #feb47b;
+}
+
+.hero-section {
+    background: url('https://via.placeholder.com/1600x900/ff7e5f/ffffff?text=Join+Our+Team') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.benefit {
+    background-color: #ff7e5f;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4d3b;
+}
