@@ -119,3 +119,20 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #ff4d3b;
 }
+
+
+/* Results Section */
+#results {
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .calorie-calculator-card {
+        margin: 20px;
+    }
+}
